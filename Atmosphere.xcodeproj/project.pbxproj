@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DC7C4E61C8CD37F00EF1187 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC7C4E51C8CD37F00EF1187 /* AppDelegate.swift */; };
+		0DC7C4E81C8CD37F00EF1187 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC7C4E71C8CD37F00EF1187 /* ViewController.swift */; };
+		0DC7C4EB1C8CD37F00EF1187 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC7C4E91C8CD37F00EF1187 /* Main.storyboard */; };
+		0DC7C4EE1C8CD37F00EF1187 /* Atmosphere.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0DC7C4EC1C8CD37F00EF1187 /* Atmosphere.xcdatamodeld */; };
+		0DC7C4F01C8CD37F00EF1187 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DC7C4EF1C8CD37F00EF1187 /* Assets.xcassets */; };
+		0DC7C4F31C8CD37F00EF1187 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC7C4F11C8CD37F00EF1187 /* LaunchScreen.storyboard */; };
+		0DC7C4FE1C8CD37F00EF1187 /* AtmosphereTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC7C4FD1C8CD37F00EF1187 /* AtmosphereTests.swift */; };
+		0DC7C5091C8CD37F00EF1187 /* AtmosphereUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC7C5081C8CD37F00EF1187 /* AtmosphereUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DC7C4FA1C8CD37F00EF1187 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DC7C4DA1C8CD37F00EF1187 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DC7C4E11C8CD37F00EF1187;
+			remoteInfo = Atmosphere;
+		};
+		0DC7C5051C8CD37F00EF1187 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DC7C4DA1C8CD37F00EF1187 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DC7C4E11C8CD37F00EF1187;
+			remoteInfo = Atmosphere;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DC7C4E21C8CD37F00EF1187 /* Atmosphere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Atmosphere.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DC7C4E51C8CD37F00EF1187 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0DC7C4E71C8CD37F00EF1187 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0DC7C4EA1C8CD37F00EF1187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0DC7C4ED1C8CD37F00EF1187 /* Atmosphere.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Atmosphere.xcdatamodel; sourceTree = "<group>"; };
+		0DC7C4EF1C8CD37F00EF1187 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DC7C4F21C8CD37F00EF1187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0DC7C4F41C8CD37F00EF1187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DC7C4F91C8CD37F00EF1187 /* AtmosphereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtmosphereTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DC7C4FD1C8CD37F00EF1187 /* AtmosphereTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtmosphereTests.swift; sourceTree = "<group>"; };
+		0DC7C4FF1C8CD37F00EF1187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DC7C5041C8CD37F00EF1187 /* AtmosphereUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtmosphereUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DC7C5081C8CD37F00EF1187 /* AtmosphereUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtmosphereUITests.swift; sourceTree = "<group>"; };
+		0DC7C50A1C8CD37F00EF1187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DC7C4DF1C8CD37F00EF1187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DC7C4F61C8CD37F00EF1187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DC7C5011C8CD37F00EF1187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DC7C4D91C8CD37F00EF1187 = {
+			isa = PBXGroup;
+			children = (
+				0DC7C4E41C8CD37F00EF1187 /* Atmosphere */,
+				0DC7C4FC1C8CD37F00EF1187 /* AtmosphereTests */,
+				0DC7C5071C8CD37F00EF1187 /* AtmosphereUITests */,
+				0DC7C4E31C8CD37F00EF1187 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DC7C4E31C8CD37F00EF1187 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DC7C4E21C8CD37F00EF1187 /* Atmosphere.app */,
+				0DC7C4F91C8CD37F00EF1187 /* AtmosphereTests.xctest */,
+				0DC7C5041C8CD37F00EF1187 /* AtmosphereUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DC7C4E41C8CD37F00EF1187 /* Atmosphere */ = {
+			isa = PBXGroup;
+			children = (
+				0DC7C4E51C8CD37F00EF1187 /* AppDelegate.swift */,
+				0DC7C4E71C8CD37F00EF1187 /* ViewController.swift */,
+				0DC7C4E91C8CD37F00EF1187 /* Main.storyboard */,
+				0DC7C4EF1C8CD37F00EF1187 /* Assets.xcassets */,
+				0DC7C4F11C8CD37F00EF1187 /* LaunchScreen.storyboard */,
+				0DC7C4F41C8CD37F00EF1187 /* Info.plist */,
+				0DC7C4EC1C8CD37F00EF1187 /* Atmosphere.xcdatamodeld */,
+			);
+			path = Atmosphere;
+			sourceTree = "<group>";
+		};
+		0DC7C4FC1C8CD37F00EF1187 /* AtmosphereTests */ = {
+			isa = PBXGroup;
+			children = (
+				0DC7C4FD1C8CD37F00EF1187 /* AtmosphereTests.swift */,
+				0DC7C4FF1C8CD37F00EF1187 /* Info.plist */,
+			);
+			path = AtmosphereTests;
+			sourceTree = "<group>";
+		};
+		0DC7C5071C8CD37F00EF1187 /* AtmosphereUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0DC7C5081C8CD37F00EF1187 /* AtmosphereUITests.swift */,
+				0DC7C50A1C8CD37F00EF1187 /* Info.plist */,
+			);
+			path = AtmosphereUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DC7C4E11C8CD37F00EF1187 /* Atmosphere */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DC7C50D1C8CD37F00EF1187 /* Build configuration list for PBXNativeTarget "Atmosphere" */;
+			buildPhases = (
+				0DC7C4DE1C8CD37F00EF1187 /* Sources */,
+				0DC7C4DF1C8CD37F00EF1187 /* Frameworks */,
+				0DC7C4E01C8CD37F00EF1187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Atmosphere;
+			productName = Atmosphere;
+			productReference = 0DC7C4E21C8CD37F00EF1187 /* Atmosphere.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0DC7C4F81C8CD37F00EF1187 /* AtmosphereTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DC7C5101C8CD37F00EF1187 /* Build configuration list for PBXNativeTarget "AtmosphereTests" */;
+			buildPhases = (
+				0DC7C4F51C8CD37F00EF1187 /* Sources */,
+				0DC7C4F61C8CD37F00EF1187 /* Frameworks */,
+				0DC7C4F71C8CD37F00EF1187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DC7C4FB1C8CD37F00EF1187 /* PBXTargetDependency */,
+			);
+			name = AtmosphereTests;
+			productName = AtmosphereTests;
+			productReference = 0DC7C4F91C8CD37F00EF1187 /* AtmosphereTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0DC7C5031C8CD37F00EF1187 /* AtmosphereUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DC7C5131C8CD37F00EF1187 /* Build configuration list for PBXNativeTarget "AtmosphereUITests" */;
+			buildPhases = (
+				0DC7C5001C8CD37F00EF1187 /* Sources */,
+				0DC7C5011C8CD37F00EF1187 /* Frameworks */,
+				0DC7C5021C8CD37F00EF1187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DC7C5061C8CD37F00EF1187 /* PBXTargetDependency */,
+			);
+			name = AtmosphereUITests;
+			productName = AtmosphereUITests;
+			productReference = 0DC7C5041C8CD37F00EF1187 /* AtmosphereUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DC7C4DA1C8CD37F00EF1187 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Evan Scott";
+				TargetAttributes = {
+					0DC7C4E11C8CD37F00EF1187 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					0DC7C4F81C8CD37F00EF1187 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 0DC7C4E11C8CD37F00EF1187;
+					};
+					0DC7C5031C8CD37F00EF1187 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 0DC7C4E11C8CD37F00EF1187;
+					};
+				};
+			};
+			buildConfigurationList = 0DC7C4DD1C8CD37F00EF1187 /* Build configuration list for PBXProject "Atmosphere" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DC7C4D91C8CD37F00EF1187;
+			productRefGroup = 0DC7C4E31C8CD37F00EF1187 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DC7C4E11C8CD37F00EF1187 /* Atmosphere */,
+				0DC7C4F81C8CD37F00EF1187 /* AtmosphereTests */,
+				0DC7C5031C8CD37F00EF1187 /* AtmosphereUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DC7C4E01C8CD37F00EF1187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DC7C4F31C8CD37F00EF1187 /* LaunchScreen.storyboard in Resources */,
+				0DC7C4F01C8CD37F00EF1187 /* Assets.xcassets in Resources */,
+				0DC7C4EB1C8CD37F00EF1187 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DC7C4F71C8CD37F00EF1187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DC7C5021C8CD37F00EF1187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DC7C4DE1C8CD37F00EF1187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DC7C4E81C8CD37F00EF1187 /* ViewController.swift in Sources */,
+				0DC7C4EE1C8CD37F00EF1187 /* Atmosphere.xcdatamodeld in Sources */,
+				0DC7C4E61C8CD37F00EF1187 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DC7C4F51C8CD37F00EF1187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DC7C4FE1C8CD37F00EF1187 /* AtmosphereTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DC7C5001C8CD37F00EF1187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DC7C5091C8CD37F00EF1187 /* AtmosphereUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DC7C4FB1C8CD37F00EF1187 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DC7C4E11C8CD37F00EF1187 /* Atmosphere */;
+			targetProxy = 0DC7C4FA1C8CD37F00EF1187 /* PBXContainerItemProxy */;
+		};
+		0DC7C5061C8CD37F00EF1187 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DC7C4E11C8CD37F00EF1187 /* Atmosphere */;
+			targetProxy = 0DC7C5051C8CD37F00EF1187 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0DC7C4E91C8CD37F00EF1187 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DC7C4EA1C8CD37F00EF1187 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0DC7C4F11C8CD37F00EF1187 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DC7C4F21C8CD37F00EF1187 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0DC7C50B1C8CD37F00EF1187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0DC7C50C1C8CD37F00EF1187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DC7C50E1C8CD37F00EF1187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Atmosphere/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.me.evanscott.Atmosphere;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0DC7C50F1C8CD37F00EF1187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Atmosphere/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.me.evanscott.Atmosphere;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0DC7C5111C8CD37F00EF1187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AtmosphereTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.me.evanscott.AtmosphereTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Atmosphere.app/Atmosphere";
+			};
+			name = Debug;
+		};
+		0DC7C5121C8CD37F00EF1187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AtmosphereTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.me.evanscott.AtmosphereTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Atmosphere.app/Atmosphere";
+			};
+			name = Release;
+		};
+		0DC7C5141C8CD37F00EF1187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AtmosphereUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.me.evanscott.AtmosphereUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Atmosphere;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0DC7C5151C8CD37F00EF1187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AtmosphereUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.me.evanscott.AtmosphereUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Atmosphere;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DC7C4DD1C8CD37F00EF1187 /* Build configuration list for PBXProject "Atmosphere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DC7C50B1C8CD37F00EF1187 /* Debug */,
+				0DC7C50C1C8CD37F00EF1187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DC7C50D1C8CD37F00EF1187 /* Build configuration list for PBXNativeTarget "Atmosphere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DC7C50E1C8CD37F00EF1187 /* Debug */,
+				0DC7C50F1C8CD37F00EF1187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0DC7C5101C8CD37F00EF1187 /* Build configuration list for PBXNativeTarget "AtmosphereTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DC7C5111C8CD37F00EF1187 /* Debug */,
+				0DC7C5121C8CD37F00EF1187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0DC7C5131C8CD37F00EF1187 /* Build configuration list for PBXNativeTarget "AtmosphereUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DC7C5141C8CD37F00EF1187 /* Debug */,
+				0DC7C5151C8CD37F00EF1187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0DC7C4EC1C8CD37F00EF1187 /* Atmosphere.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0DC7C4ED1C8CD37F00EF1187 /* Atmosphere.xcdatamodel */,
+			);
+			currentVersion = 0DC7C4ED1C8CD37F00EF1187 /* Atmosphere.xcdatamodel */;
+			path = Atmosphere.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0DC7C4DA1C8CD37F00EF1187 /* Project object */;
+}
