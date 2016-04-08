@@ -8,13 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		0DC7C4E61C8CD37F00EF1187 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC7C4E51C8CD37F00EF1187 /* AppDelegate.swift */; };
-		0DC7C4E81C8CD37F00EF1187 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC7C4E71C8CD37F00EF1187 /* ViewController.swift */; };
+		0DC7C4E81C8CD37F00EF1187 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC7C4E71C8CD37F00EF1187 /* WelcomeViewController.swift */; };
 		0DC7C4EB1C8CD37F00EF1187 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC7C4E91C8CD37F00EF1187 /* Main.storyboard */; };
 		0DC7C4EE1C8CD37F00EF1187 /* Atmosphere.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0DC7C4EC1C8CD37F00EF1187 /* Atmosphere.xcdatamodeld */; };
 		0DC7C4F01C8CD37F00EF1187 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DC7C4EF1C8CD37F00EF1187 /* Assets.xcassets */; };
-		0DC7C4F31C8CD37F00EF1187 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC7C4F11C8CD37F00EF1187 /* LaunchScreen.storyboard */; };
 		0DC7C4FE1C8CD37F00EF1187 /* AtmosphereTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC7C4FD1C8CD37F00EF1187 /* AtmosphereTests.swift */; };
 		0DC7C5091C8CD37F00EF1187 /* AtmosphereUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC7C5081C8CD37F00EF1187 /* AtmosphereUITests.swift */; };
+		0DC7D0611C9662EF00AC0114 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC7D0601C9662EF00AC0114 /* Login.storyboard */; };
+		0DC7D0621C9662EF00AC0114 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC7D0601C9662EF00AC0114 /* Login.storyboard */; };
+		0DC7D0631C9662EF00AC0114 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC7D0601C9662EF00AC0114 /* Login.storyboard */; };
+		0DC7D0651C96636D00AC0114 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC7D0641C96636D00AC0114 /* LoginViewController.swift */; };
+		0DC7D0661C96636D00AC0114 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC7D0641C96636D00AC0114 /* LoginViewController.swift */; };
+		0DC7D0671C96636D00AC0114 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC7D0641C96636D00AC0114 /* LoginViewController.swift */; };
+		0DC7D06D1C9663B000AC0114 /* LoginWithEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC7D06C1C9663B000AC0114 /* LoginWithEmailViewController.swift */; };
+		0DC7D06E1C9663B000AC0114 /* LoginWithEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC7D06C1C9663B000AC0114 /* LoginWithEmailViewController.swift */; };
+		0DC7D06F1C9663B000AC0114 /* LoginWithEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC7D06C1C9663B000AC0114 /* LoginWithEmailViewController.swift */; };
+		0DC7D0721C967DBC00AC0114 /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC7D0711C967DBC00AC0114 /* Register.storyboard */; };
+		0DC7D0731C967DBC00AC0114 /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC7D0711C967DBC00AC0114 /* Register.storyboard */; };
+		0DC7D0741C967DBC00AC0114 /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC7D0711C967DBC00AC0114 /* Register.storyboard */; };
+		0DC7D0761C967F3100AC0114 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC7D0751C967F3100AC0114 /* RegisterViewController.swift */; };
+		0DC7D0771C967F3100AC0114 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC7D0751C967F3100AC0114 /* RegisterViewController.swift */; };
+		0DC7D0781C967F3100AC0114 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC7D0751C967F3100AC0114 /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +49,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0DC7C4E21C8CD37F00EF1187 /* Atmosphere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Atmosphere.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DC7C4E21C8CD37F00EF1187 /* atmosphereweather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = atmosphereweather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DC7C4E51C8CD37F00EF1187 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0DC7C4E71C8CD37F00EF1187 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0DC7C4E71C8CD37F00EF1187 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		0DC7C4EA1C8CD37F00EF1187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0DC7C4ED1C8CD37F00EF1187 /* Atmosphere.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Atmosphere.xcdatamodel; sourceTree = "<group>"; };
 		0DC7C4EF1C8CD37F00EF1187 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0DC7C4F21C8CD37F00EF1187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DC7C4F41C8CD37F00EF1187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0DC7C4F91C8CD37F00EF1187 /* AtmosphereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtmosphereTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DC7C4F91C8CD37F00EF1187 /* atmosphereweather.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = atmosphereweather.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DC7C4FD1C8CD37F00EF1187 /* AtmosphereTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtmosphereTests.swift; sourceTree = "<group>"; };
 		0DC7C4FF1C8CD37F00EF1187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0DC7C5041C8CD37F00EF1187 /* AtmosphereUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtmosphereUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DC7C5041C8CD37F00EF1187 /* atmosphereweather.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = atmosphereweather.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DC7C5081C8CD37F00EF1187 /* AtmosphereUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtmosphereUITests.swift; sourceTree = "<group>"; };
 		0DC7C50A1C8CD37F00EF1187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DC7D0601C9662EF00AC0114 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		0DC7D0641C96636D00AC0114 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0DC7D06C1C9663B000AC0114 /* LoginWithEmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginWithEmailViewController.swift; sourceTree = "<group>"; };
+		0DC7D0711C967DBC00AC0114 /* Register.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
+		0DC7D0751C967F3100AC0114 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,9 +107,9 @@
 		0DC7C4E31C8CD37F00EF1187 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0DC7C4E21C8CD37F00EF1187 /* Atmosphere.app */,
-				0DC7C4F91C8CD37F00EF1187 /* AtmosphereTests.xctest */,
-				0DC7C5041C8CD37F00EF1187 /* AtmosphereUITests.xctest */,
+				0DC7C4E21C8CD37F00EF1187 /* atmosphereweather.app */,
+				0DC7C4F91C8CD37F00EF1187 /* atmosphereweather.xctest */,
+				0DC7C5041C8CD37F00EF1187 /* atmosphereweather.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,11 +117,12 @@
 		0DC7C4E41C8CD37F00EF1187 /* Atmosphere */ = {
 			isa = PBXGroup;
 			children = (
+				0DE851D01C96900100693BDE /* Registration */,
+				0DC7D0701C9663BB00AC0114 /* Login */,
 				0DC7C4E51C8CD37F00EF1187 /* AppDelegate.swift */,
-				0DC7C4E71C8CD37F00EF1187 /* ViewController.swift */,
+				0DC7C4E71C8CD37F00EF1187 /* WelcomeViewController.swift */,
 				0DC7C4E91C8CD37F00EF1187 /* Main.storyboard */,
 				0DC7C4EF1C8CD37F00EF1187 /* Assets.xcassets */,
-				0DC7C4F11C8CD37F00EF1187 /* LaunchScreen.storyboard */,
 				0DC7C4F41C8CD37F00EF1187 /* Info.plist */,
 				0DC7C4EC1C8CD37F00EF1187 /* Atmosphere.xcdatamodeld */,
 			);
@@ -128,12 +147,31 @@
 			path = AtmosphereUITests;
 			sourceTree = "<group>";
 		};
+		0DC7D0701C9663BB00AC0114 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				0DC7D0601C9662EF00AC0114 /* Login.storyboard */,
+				0DC7D06C1C9663B000AC0114 /* LoginWithEmailViewController.swift */,
+				0DC7D0641C96636D00AC0114 /* LoginViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		0DE851D01C96900100693BDE /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				0DC7D0711C967DBC00AC0114 /* Register.storyboard */,
+				0DC7D0751C967F3100AC0114 /* RegisterViewController.swift */,
+			);
+			name = Registration;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0DC7C4E11C8CD37F00EF1187 /* Atmosphere */ = {
+		0DC7C4E11C8CD37F00EF1187 /* atmosphereweather */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0DC7C50D1C8CD37F00EF1187 /* Build configuration list for PBXNativeTarget "Atmosphere" */;
+			buildConfigurationList = 0DC7C50D1C8CD37F00EF1187 /* Build configuration list for PBXNativeTarget "atmosphereweather" */;
 			buildPhases = (
 				0DC7C4DE1C8CD37F00EF1187 /* Sources */,
 				0DC7C4DF1C8CD37F00EF1187 /* Frameworks */,
@@ -143,14 +181,14 @@
 			);
 			dependencies = (
 			);
-			name = Atmosphere;
+			name = atmosphereweather;
 			productName = Atmosphere;
-			productReference = 0DC7C4E21C8CD37F00EF1187 /* Atmosphere.app */;
+			productReference = 0DC7C4E21C8CD37F00EF1187 /* atmosphereweather.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0DC7C4F81C8CD37F00EF1187 /* AtmosphereTests */ = {
+		0DC7C4F81C8CD37F00EF1187 /* atmosphereweatherTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0DC7C5101C8CD37F00EF1187 /* Build configuration list for PBXNativeTarget "AtmosphereTests" */;
+			buildConfigurationList = 0DC7C5101C8CD37F00EF1187 /* Build configuration list for PBXNativeTarget "atmosphereweatherTests" */;
 			buildPhases = (
 				0DC7C4F51C8CD37F00EF1187 /* Sources */,
 				0DC7C4F61C8CD37F00EF1187 /* Frameworks */,
@@ -161,14 +199,14 @@
 			dependencies = (
 				0DC7C4FB1C8CD37F00EF1187 /* PBXTargetDependency */,
 			);
-			name = AtmosphereTests;
+			name = atmosphereweatherTests;
 			productName = AtmosphereTests;
-			productReference = 0DC7C4F91C8CD37F00EF1187 /* AtmosphereTests.xctest */;
+			productReference = 0DC7C4F91C8CD37F00EF1187 /* atmosphereweather.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0DC7C5031C8CD37F00EF1187 /* AtmosphereUITests */ = {
+		0DC7C5031C8CD37F00EF1187 /* atmosphereweatherUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0DC7C5131C8CD37F00EF1187 /* Build configuration list for PBXNativeTarget "AtmosphereUITests" */;
+			buildConfigurationList = 0DC7C5131C8CD37F00EF1187 /* Build configuration list for PBXNativeTarget "atmosphereweatherUITests" */;
 			buildPhases = (
 				0DC7C5001C8CD37F00EF1187 /* Sources */,
 				0DC7C5011C8CD37F00EF1187 /* Frameworks */,
@@ -179,9 +217,9 @@
 			dependencies = (
 				0DC7C5061C8CD37F00EF1187 /* PBXTargetDependency */,
 			);
-			name = AtmosphereUITests;
+			name = atmosphereweatherUITests;
 			productName = AtmosphereUITests;
-			productReference = 0DC7C5041C8CD37F00EF1187 /* AtmosphereUITests.xctest */;
+			productReference = 0DC7C5041C8CD37F00EF1187 /* atmosphereweather.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -196,6 +234,12 @@
 				TargetAttributes = {
 					0DC7C4E11C8CD37F00EF1187 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 33YXNUPQ5S;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					0DC7C4F81C8CD37F00EF1187 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -207,7 +251,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0DC7C4DD1C8CD37F00EF1187 /* Build configuration list for PBXProject "Atmosphere" */;
+			buildConfigurationList = 0DC7C4DD1C8CD37F00EF1187 /* Build configuration list for PBXProject "atmosphereweather" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,9 +264,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0DC7C4E11C8CD37F00EF1187 /* Atmosphere */,
-				0DC7C4F81C8CD37F00EF1187 /* AtmosphereTests */,
-				0DC7C5031C8CD37F00EF1187 /* AtmosphereUITests */,
+				0DC7C4E11C8CD37F00EF1187 /* atmosphereweather */,
+				0DC7C4F81C8CD37F00EF1187 /* atmosphereweatherTests */,
+				0DC7C5031C8CD37F00EF1187 /* atmosphereweatherUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,9 +276,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DC7C4F31C8CD37F00EF1187 /* LaunchScreen.storyboard in Resources */,
 				0DC7C4F01C8CD37F00EF1187 /* Assets.xcassets in Resources */,
 				0DC7C4EB1C8CD37F00EF1187 /* Main.storyboard in Resources */,
+				0DC7D0611C9662EF00AC0114 /* Login.storyboard in Resources */,
+				0DC7D0721C967DBC00AC0114 /* Register.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +287,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DC7D0621C9662EF00AC0114 /* Login.storyboard in Resources */,
+				0DC7D0731C967DBC00AC0114 /* Register.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +296,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DC7D0631C9662EF00AC0114 /* Login.storyboard in Resources */,
+				0DC7D0741C967DBC00AC0114 /* Register.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +308,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DC7C4E81C8CD37F00EF1187 /* ViewController.swift in Sources */,
+				0DC7D0651C96636D00AC0114 /* LoginViewController.swift in Sources */,
+				0DC7C4E81C8CD37F00EF1187 /* WelcomeViewController.swift in Sources */,
+				0DC7D06D1C9663B000AC0114 /* LoginWithEmailViewController.swift in Sources */,
+				0DC7D0761C967F3100AC0114 /* RegisterViewController.swift in Sources */,
 				0DC7C4EE1C8CD37F00EF1187 /* Atmosphere.xcdatamodeld in Sources */,
 				0DC7C4E61C8CD37F00EF1187 /* AppDelegate.swift in Sources */,
 			);
@@ -269,7 +321,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DC7D06E1C9663B000AC0114 /* LoginWithEmailViewController.swift in Sources */,
+				0DC7D0661C96636D00AC0114 /* LoginViewController.swift in Sources */,
 				0DC7C4FE1C8CD37F00EF1187 /* AtmosphereTests.swift in Sources */,
+				0DC7D0771C967F3100AC0114 /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +332,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DC7D06F1C9663B000AC0114 /* LoginWithEmailViewController.swift in Sources */,
+				0DC7D0671C96636D00AC0114 /* LoginViewController.swift in Sources */,
 				0DC7C5091C8CD37F00EF1187 /* AtmosphereUITests.swift in Sources */,
+				0DC7D0781C967F3100AC0114 /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,12 +344,12 @@
 /* Begin PBXTargetDependency section */
 		0DC7C4FB1C8CD37F00EF1187 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0DC7C4E11C8CD37F00EF1187 /* Atmosphere */;
+			target = 0DC7C4E11C8CD37F00EF1187 /* atmosphereweather */;
 			targetProxy = 0DC7C4FA1C8CD37F00EF1187 /* PBXContainerItemProxy */;
 		};
 		0DC7C5061C8CD37F00EF1187 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0DC7C4E11C8CD37F00EF1187 /* Atmosphere */;
+			target = 0DC7C4E11C8CD37F00EF1187 /* atmosphereweather */;
 			targetProxy = 0DC7C5051C8CD37F00EF1187 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -303,14 +361,6 @@
 				0DC7C4EA1C8CD37F00EF1187 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0DC7C4F11C8CD37F00EF1187 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0DC7C4F21C8CD37F00EF1187 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -401,10 +451,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Evan Scott (33YXNUPQ5S)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Atmosphere/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.me.evanscott.Atmosphere;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = atmosphereweather;
+				PRODUCT_NAME = atmosphereweather;
+				PROVISIONING_PROFILE = "184c6c32-70b6-49a0-8086-90357240d1ab";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -412,10 +468,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Evan Scott (33YXNUPQ5S)";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: Evan Scott (33YXNUPQ5S)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Atmosphere/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.me.evanscott.Atmosphere;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = atmosphereweather;
+				PRODUCT_NAME = atmosphereweather;
+				PROVISIONING_PROFILE = "184c6c32-70b6-49a0-8086-90357240d1ab";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -426,8 +489,8 @@
 				INFOPLIST_FILE = AtmosphereTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.me.evanscott.AtmosphereTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Atmosphere.app/Atmosphere";
+				PRODUCT_NAME = atmosphereweather;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/atmosphereweather.app/atmosphereweather";
 			};
 			name = Debug;
 		};
@@ -438,8 +501,8 @@
 				INFOPLIST_FILE = AtmosphereTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.me.evanscott.AtmosphereTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Atmosphere.app/Atmosphere";
+				PRODUCT_NAME = atmosphereweather;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/atmosphereweather.app/atmosphereweather";
 			};
 			name = Release;
 		};
@@ -449,7 +512,7 @@
 				INFOPLIST_FILE = AtmosphereUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.me.evanscott.AtmosphereUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = atmosphereweather;
 				TEST_TARGET_NAME = Atmosphere;
 				USES_XCTRUNNER = YES;
 			};
@@ -461,7 +524,7 @@
 				INFOPLIST_FILE = AtmosphereUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.me.evanscott.AtmosphereUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = atmosphereweather;
 				TEST_TARGET_NAME = Atmosphere;
 				USES_XCTRUNNER = YES;
 			};
@@ -470,7 +533,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0DC7C4DD1C8CD37F00EF1187 /* Build configuration list for PBXProject "Atmosphere" */ = {
+		0DC7C4DD1C8CD37F00EF1187 /* Build configuration list for PBXProject "atmosphereweather" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0DC7C50B1C8CD37F00EF1187 /* Debug */,
@@ -479,29 +542,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0DC7C50D1C8CD37F00EF1187 /* Build configuration list for PBXNativeTarget "Atmosphere" */ = {
+		0DC7C50D1C8CD37F00EF1187 /* Build configuration list for PBXNativeTarget "atmosphereweather" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0DC7C50E1C8CD37F00EF1187 /* Debug */,
 				0DC7C50F1C8CD37F00EF1187 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		0DC7C5101C8CD37F00EF1187 /* Build configuration list for PBXNativeTarget "AtmosphereTests" */ = {
+		0DC7C5101C8CD37F00EF1187 /* Build configuration list for PBXNativeTarget "atmosphereweatherTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0DC7C5111C8CD37F00EF1187 /* Debug */,
 				0DC7C5121C8CD37F00EF1187 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		0DC7C5131C8CD37F00EF1187 /* Build configuration list for PBXNativeTarget "AtmosphereUITests" */ = {
+		0DC7C5131C8CD37F00EF1187 /* Build configuration list for PBXNativeTarget "atmosphereweatherUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0DC7C5141C8CD37F00EF1187 /* Debug */,
 				0DC7C5151C8CD37F00EF1187 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
