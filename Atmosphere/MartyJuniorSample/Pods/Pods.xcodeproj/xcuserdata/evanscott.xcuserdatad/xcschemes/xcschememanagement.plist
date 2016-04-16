@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>MartyJunior.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>MisterFusion.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Pods-MartyJuniorSample.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>ReuseCellConfigure.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>SABlurImageView.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>00C46CB1EB9D802D86862029DC7B7C5D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7D1D0556C4380FF7B8BAC333A9D69910</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>90080D948323CEEBE8FF5433E6F4CF56</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BF5F5AEE66F5AE452F7AADB77D5CD415</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E38A7CF040961F22A1E6D000029120B8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

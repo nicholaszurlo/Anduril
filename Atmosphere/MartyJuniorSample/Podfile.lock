@@ -1,0 +1,23 @@
+PODS:
+  - MartyJunior (0.1.0):
+    - MisterFusion
+  - MisterFusion (1.2.0)
+  - ReuseCellConfigure (0.1.0)
+  - SABlurImageView (2.1.1)
+
+DEPENDENCIES:
+  - MartyJunior (from `../`)
+  - ReuseCellConfigure
+  - SABlurImageView
+
+EXTERNAL SOURCES:
+  MartyJunior:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MartyJunior: 622e20a4fae94a5f546e21b2ddfbc71fe9697802
+  MisterFusion: 0c6cf64452f576d463a9097522ed281208443339
+  ReuseCellConfigure: ecebae2b0aef0677c9f0428006d20088697221ae
+  SABlurImageView: 60fd7f18c20b4bb2bb6b1e4446464d6a480c5754
+
+COCOAPODS: 0.39.0
